@@ -4,9 +4,6 @@ import { TodoItems } from "./TodoItem"
 export const TodoList = (props) => {
   const defaultListItems = [
     {name: 'Tarefa 1', isCompleted: true},
-    {name: 'Tarefa 2', isCompleted: false},
-    {name: 'Tarefa 3', isCompleted: false},
-    {name: 'Tarefa 4', isCompleted: false}
 
   ]
   const [items, setItems] = useState(defaultListItems)
